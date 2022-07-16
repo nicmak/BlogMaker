@@ -3,6 +3,8 @@ class BlogsController < ApplicationController
   # the point of before_action, is that it runs 
   # the function set_blog before the action of any 
   # functions below is run. unless the same variable is overriden.
+  
+  layout "blog"
 
   # GET /blogs or /blogs.json
   def index
