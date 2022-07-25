@@ -2,7 +2,7 @@ module SetSource
   extend ActiveSupport::Concern
   
   included do
-    before_filter :set_session
+    before_action :set_session
   end
 
   def set_session
